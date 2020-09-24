@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "${workspaceFolder}\\server/store.sqlite",
+            "dialect": "SQLite",
+            "isActive": false,
+            "isConnected": false,
+            "name": "user"
+        },
+        {
+            "database": ".\\server/store.sqlite",
+            "dialect": "SQLite",
+            "isActive": true,
+            "isConnected": true,
+            "name": "apollo-server"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
